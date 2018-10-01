@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Consumables</key>
+	<dict>
+		<key>com.dovemobi.games.casinoomania.house.of.casino.iap1</key>
+		<dict>
+			<key>ConsumableCount</key>
+			<integer>3000</integer>
+			<key>ConsumableId</key>
+			<string>Coins</string>
+		</dict>
+		<key>com.dovemobi.games.casinoomania.house.of.casino.iap2</key>
+		<dict>
+			<key>ConsumableCount</key>
+			<integer>7000</integer>
+			<key>ConsumableId</key>
+			<string>Coins</string>
+		</dict>
+		<key>com.dovemobi.games.casinoomania.house.of.casino.iap3</key>
+		<dict>
+			<key>ConsumableCount</key>
+			<integer>15000</integer>
+			<key>ConsumableId</key>
+			<string>Coins</string>
+		</dict>
+		<key>com.dovemobi.games.casinoomania.house.of.casino.iap4</key>
+		<dict>
+			<key>ConsumableCount</key>
+			<integer>2000</integer>
+			<key>ConsumableId</key>
+			<string>Coins</string>
+		</dict>
+		<key>com.dovemobi.games.casinoomania.house.of.casino.iap5</key>
+		<dict>
+			<key>ConsumableCount</key>
+			<integer>2000</integer>
+			<key>ConsumableId</key>
+			<string>Coins</string>
+		</dict>
+		<key>com.dovemobi.games.casinoomania.house.of.casino.iap6</key>
+		<dict>
+			<key>ConsumableCount</key>
+			<integer>2000</integer>
+			<key>ConsumableId</key>
+			<string>Coins</string>
+		</dict>
+	</dict>
+	<key>Others</key>
+	<array>
+		<string>hackyhack_publish</string>
+		<string>com.dovemobi.games.casinoomania.house.of.casino.mvip1</string>
+		<string>com.dovemobi.games.casinoomania.house.of.casino.mvip2</string>
+		<string>com.dovemobi.games.casinoomania.house.of.casino.mvip3</string>
+		<string>com.dovemobi.games.casinoomania.house.of.casino.mvvip1</string>
+		<string>com.dovemobi.games.casinoomania.house.of.casino.mvvip2</string>
+		<string>com.dovemobi.games.casinoomania.house.of.casino.mvvip3</string>
+	</array>
+</dict>
+</plist>

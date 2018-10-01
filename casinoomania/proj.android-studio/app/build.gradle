@@ -1,0 +1,103 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        //classpath 'io.fabric.tools:gradle:1.+'
+        classpath 'io.fabric.tools:gradle:1.21.5'
+    }
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'crashlyticsUploadSymbolsRelease') {
+        println "Scheduled UploadSymbols Task"
+        assembleRelease.finalizedBy(task)
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    publishNonDefault true
+
+    sourceSets.main {
+        java.srcDir "src/main/java"
+        res.srcDir "src/main/res"
+        jniLibs.srcDir "src/main/jniLibs"
+        manifest.srcFile "src/main/AndroidManifest.xml"
+        assets.srcDir "src/main/assets"
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "com.dovemobi.games.casinoomania.house.of.casino"
+        minSdkVersion 15
+        targetSdkVersion 25
+        multiDexEnabled true
+
+        versionCode 109
+        versionName "1.109"
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'src/main/libs', include: ['*.jar'])
+
+//    compile 'com.google.android.gms:play-services:11.2.0'
+
+    compile 'com.google.android.gms:play-services-gcm:11.0.0'
+    compile 'com.google.android.gms:play-services-ads:11.0.0'
+    compile 'com.google.android.gms:play-services-games:11.0.0'
+    compile 'com.google.android.gms:play-services-drive:11.0.0'
+    compile 'com.google.android.gms:play-services-plus:11.0.0'
+
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+
+    compile project(':libcocos2dx')
+    compile project (':BaseGameUtils')
+
+    compile files('libs/chartboost.jar')
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+        transitive = true;
+    }
+    compile('com.crashlytics.sdk.android:crashlytics-ndk:1.1.6@aar') {
+        transitive = true;
+    }
+}
+
+crashlytics {
+    enableNdk true
+    androidNdkOut 'obj'
+    androidNdkLibsOut 'src/main/jniLibs'
+}

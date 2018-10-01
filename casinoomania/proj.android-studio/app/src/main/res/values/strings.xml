@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Casinoomania</string>
+    <!-- hackyhack_publish -->
+    <string name="itunes_connect_link">https://itunes.apple.com/us/app/casinoomania-house-of-casino/id1246175547</string>
+
+    <!-- v2.7, with open graph -->
+    <string name="facebook_app_id">154665115093695</string>
+    <string name="fb_login_protocol_scheme">fb154665115093695</string>
+
+
+    <string name="local_push_noti_text1">Collect your BONUS Now!</string>
+    <string name="local_push_noti_text2">Jackpot is waiting for you!</string>
+    <string name="local_push_noti_text3">You just get 1000 FREE COINS!</string>
+    <string name="local_push_noti_text4">Time to open your CHEST!</string>
+    <string name="local_push_noti_text5">WOW! You just win a jackpot!</string>
+
+    <string name="app_id">779535215485</string>
+    <string name="leaderboard_id">CgkI_dat_9cWEAIQBw</string>
+
+    <string name="admob_banner">ca-app-pub-2247343494301229/8637621599</string>
+    <string name="admob_interstitial">ca-app-pub-2247343494301229/2591087991</string>
+    <string name="admob_rewarded_video">ca-app-pub-2247343494301229/4067821193</string>
+    <string name="chartboost_id">59391dd643150f476e2f36cd</string>
+    <string name="chartboost_sig">6624434aec92ef7b0020573e6b8b7f20a24c54ae</string>
+
+    <string name="base64">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvDxfPQXdRbo0a1zCoTNEe0I4ADj6+qvg9lc+e2lJBqCdLSk5RAM31x/31P/4PV5/QcHTwum4+0fmqj8lxTfdxQiVO3mQosu7rZPrTNvpXiZjKW4ka11t5LTh+sZ3a5OSKDdrnlXUs1wamUVRBPFaBDZrEB6m38BOysreXMfwPZn5EqllY7SMeo94zkXfZ1up+Dpbq19f+TOvQ7IQ1ELk5lcUVvpyXvI4ekg8DwAtVL9I5ICHD+lq5I2UA7hWe1tfKt4Gcon0s0/nqXEhh9pcU9KypYt9pNPfZVu3EaIP4WKSD5DIVOaFUpbGtEfocFvmSbZeREI4sD/Qpaipq54EVwIDAQAB</string>
+
+    <string name="signin_other_error_message">Sign-in error</string>
+
+</resources>

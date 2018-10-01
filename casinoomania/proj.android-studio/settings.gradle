@@ -1,0 +1,5 @@
+include ':libcocos2dx', ':BaseGameUtils'
+project(':libcocos2dx').projectDir = new File(settingsDir, '../cocos2d/cocos/platform/android/libcocos2dx')
+include ':DovemobiCasino'
+project(':DovemobiCasino').projectDir = new File(settingsDir, 'app')
+project(':BaseGameUtils').projectDir = new File('app/BaseGameUtils')

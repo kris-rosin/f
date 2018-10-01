@@ -1,0 +1,22 @@
+info face="ObelixPro" size=68 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=103 base=96 scaleW=384 scaleH=320 pages=1 packed=0
+page id=0 file="pigbank.png"
+chars count=16
+char id=32 x=88 y=286 width=0 height=0 xoffset=0 yoffset=73 xadvance=24 page=0 chnl=0
+char id=36 x=2 y=198 width=74 height=104 xoffset=1 yoffset=-5 xadvance=54 page=0 chnl=0
+char id=43 x=240 y=98 width=64 height=62 xoffset=3 yoffset=22 xadvance=48 page=0 chnl=0
+char id=44 x=306 y=98 width=44 height=46 xoffset=-4 yoffset=57 xadvance=22 page=0 chnl=0
+char id=45 x=284 y=162 width=46 height=38 xoffset=3 yoffset=32 xadvance=31 page=0 chnl=0
+char id=46 x=240 y=162 width=42 height=42 xoffset=1 yoffset=54 xadvance=24 page=0 chnl=0
+char id=48 x=2 y=2 width=84 height=96 xoffset=-1 yoffset=1 xadvance=58 page=0 chnl=0
+char id=49 x=326 y=2 width=52 height=90 xoffset=4 yoffset=5 xadvance=37 page=0 chnl=0
+char id=50 x=88 y=2 width=80 height=94 xoffset=0 yoffset=2 xadvance=56 page=0 chnl=0
+char id=51 x=164 y=98 width=74 height=92 xoffset=-1 yoffset=4 xadvance=50 page=0 chnl=0
+char id=52 x=88 y=192 width=74 height=92 xoffset=1 yoffset=3 xadvance=53 page=0 chnl=0
+char id=53 x=88 y=98 width=74 height=92 xoffset=0 yoffset=2 xadvance=53 page=0 chnl=0
+char id=54 x=248 y=2 width=76 height=92 xoffset=0 yoffset=4 xadvance=54 page=0 chnl=0
+char id=55 x=164 y=192 width=68 height=92 xoffset=-1 yoffset=3 xadvance=43 page=0 chnl=0
+char id=56 x=2 y=100 width=82 height=96 xoffset=0 yoffset=0 xadvance=60 page=0 chnl=0
+char id=57 x=170 y=2 width=76 height=92 xoffset=1 yoffset=4 xadvance=54 page=0 chnl=0
+kernings count=1
+kerning first=55 second=56 amount=-1
